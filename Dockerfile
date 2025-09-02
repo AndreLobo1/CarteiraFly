@@ -56,4 +56,4 @@ COPY --from=builder /app/run_export.py ./
 COPY --from=builder /app/entrypoint.sh ./
 
 # Define entrypoint do container
-ENTRYPOINT ["/app/entrypoint.sh"]
+ENTRYPOINT ["/app/entrypoint.sh"].
